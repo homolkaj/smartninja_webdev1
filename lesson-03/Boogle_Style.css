@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+.navigation {
+    /* background-color: #008F8C; */
+    background-color: white;
+    display: flex;
+    height: 50px;
+    width: 100vw;
+    position: static;
+    align-items: center;
+    /* spreadig content heorzontally */
+    /* flex-direction: column; */
+    justify-content: flex-end;
+}
+
+.navigation_right {
+    width: 200px;
+    display: flex;
+   justify-content: space-around;
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    display: flex;
+    /* background-color: #BFBA9F; */
+    background-color: white;
+    width: 15vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    /* background-color: #BFBA9F; */
+    background-color: white;
+    width: 15vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* background-color: #E4F2E6; */
+    background-color: white;
+    width: 70vw;
+    height: 100vh;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.main_picture{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #E4F2E6;
+    width: 70vw;
+    height: 10vh;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.form-signin {
+    width: 200px;
+    margin:10px;
+}
+
+.form-signin button {
+    width: 150px;
+}
+
+.form-search {
+    width: 400px;
+    margin:20px;
+}
+
+.form-search input {
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.form-search button {
+    width: 190px;
+}
