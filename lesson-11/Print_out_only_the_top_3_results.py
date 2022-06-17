@@ -14,7 +14,7 @@ import datetime
 
 
 name = input("What's your name? ")
-secret = random.randint(1, 4)
+secret = random.randint(1, 30)
 attempts = 0
 
 with open("score_list_5.json", "r") as score_file:
