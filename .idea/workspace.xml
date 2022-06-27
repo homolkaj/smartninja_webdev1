@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e32c0e-8c62-448c-8315-58608284f175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson-12/Make _the_guessing_game_more_modular.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-12/Make _the_guessing_game_more_modular_plus_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-12/score_list_6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-12/score_list_7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/Make _the_guessing_game_more_modular_plus_name_plus_wrong_guesses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/score_list_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-12/Make _the_guessing_game_more_modular.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/Make _the_guessing_game_more_modular.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-12/Make _the_guessing_game_more_modular_plus_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-12/Make _the_guessing_game_more_modular_plus_name.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -43,7 +43,7 @@ def get_top3_score():
 
 # Funktion Spiel spielen + Eingabe Namen
 def play():
-    secret = random.randint(1, 2)
+    secret = random.randint(1, 30)
     attempts = 0
     score_list = get_score_list()
     name = input("What's your name? ")
