@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e32c0e-8c62-448c-8315-58608284f175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson-12/Absolute_difference_between_two_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-12/Steps_counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-12/The_cube_of_a_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-12/The_sum_of_two_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/Make _the_guessing_game_more_modular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/Make _the_guessing_game_more_modular_plus_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/score_list_6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-12/score_list_7.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/02_SmartNinja/GitHub/smartninja_webdev1/lesson-12",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/02_SmartNinja/GitHub/smartninja_webdev1/lesson-12&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\02_SmartNinja\GitHub\smartninja_webdev1\lesson-12" />
