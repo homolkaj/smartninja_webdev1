@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- you can have multiple jinja block
+            make sure to give them different names -->
+        {% block title %}
+        {% endblock title %}
+
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+
+    <body>
+
+    <!-- let's add links between the different websites -->
+    <p>
+        <a href="/">Home</a>,
+        <a href="/about-me">About me</a>,
+        <a href="/portfolio">Portfolio</a>
+    </p>
+
+    <h1>Hello Visitors</h1>
+
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>

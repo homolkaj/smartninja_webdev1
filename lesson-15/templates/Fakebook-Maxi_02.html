@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Stylesheet Maxi_styles.css-->
+    <link rel="stylesheet" href="/static/css/Maxi_styles.css">
+    <title>Maxi-Fakebook</title>
+</head>
+
+<body bgcolor=#f0e9d2>
+    <p>
+        <a href="/portfolio">Back to Portfolio</a>
+    </p>
+
+    <h1 id="myHeader">Fakebook <button onclick="displayResult()">Textänderung</button></h1>
+    <!--
+    <button onclick="displayResult()">Textänderung</button>
+    -->
+            <!-- Textänderung mit JavaScript Funktion getElementById() -->
+            <script>
+                function displayResult() {
+                document.getElementById("myHeader").innerHTML = "Maxi's Fakebook";
+                }
+            </script>
+
+        <div class="centered">
+
+            <img id="C6" src="/static/img/Maxi.jpg" width="200" class="""image" >
+            <br>
+            <!-- Download Bild -->
+            <a href="/static/img/Maxi.jpg" download>Foto zum "Herunterladen"</a>
+            <br>
+            <!-- Bild im neuen Browserfenster öffnen-->
+            <a target="_blank" href="/static/img/Maxi.jpg">Foto im neuen Fenster öffnen</a>
+        </div>
+        <!-- Zu den Kapiteln springen-->
+        <div class="centered">
+            <p><a href="#C1">Springe zum Kapitel "Steckbrief"</a></p>
+            <p><a href="#C2">Springe zum Kapitel "Sprachen"</a></p>
+            <p><a href="#C3">Springe zum Kapitel "Lieblingsmusik"</a></p>
+            <p><a href="#C4">Springe zum Kapitel "Was es noch zum Sagen gibt"</a></p>
+            <p><a href="#C5">Springe zum Kapitel "Ich bestelle mein Futter..."</a></p>
+        </div>
+
+    <h2 id="C1" class="header2">Steckbrief</h2>
+        <!-- Zurück zum Anfang springen-->
+        <div class="centered">
+            <p><a href="#C6">Zurück zum Anfang</a></p>
+        </div>
+        <div class="text1">
+            <p>Mein Name ist Maxi. Ich bin eine "Europäische Kurzhaar" Katze und lebe im schönen Wien.</p>
+            <!--Unordered List-->
+
+            <ul type="square">
+                <li><b>Geschlecht:</b> Männlich</li>
+                <li><b>Alter:</b> Man weiß es nicht so genau. Geschätzt 6-8 Jahre alt.</li>
+                <li><b>Lieblingsspielzeug:</b> Haargummis</li>
+                <li><b>Lieblingsfutter:</b> Lachs, Tunfisch, Rind</li>
+                <li><b>Staatsbürgerschaft:</b> Österreich</li>
+            </ul>
+         </div>
+
+
+    <h2 id="C2" class="header2">Sprachen</h2>
+         <!-- Zurück zum Anfang springen-->
+        <div class="centered">
+            <p><a href="#C6">Zurück zum Anfang</a></p>
+        </div>
+        <div class="text1">
+        <p>Anzeige als geordnete Liste</p>
+        <!--Unordered List-->
+        <ol type="1">
+            <li> <b>Katzensprache (Muttersprache):</b> fließend</li>
+            <li> <b>Alle anderen Sprachen der Welt:</b> achte auf Körpersprache <img width="20" src="/static/img/Smiley.jpg"></li>
+        </ol>
+
+        <p>Anzeige in Tabelle:</p>
+            <table class="text1" border="1">
+                <colgroup>
+                    <col width="200" >
+                    <col width="200" >
+                </colgroup>
+                <tr>
+                    <th>Fremdsprache</th>
+                    <th>Level</th>
+                </tr>
+                 <tr>
+                     <td>Katzensprache (Muttersprache):</td>
+                     <td>fließend</td>
+                </tr>
+                <tr>
+                     <td>Alle anderen Sprachen der Welt</td>
+                     <td>achte auf Körpersprache</td>
+                </tr>
+            </table>
+        </div>
+
+    <h2 id="C3" class="header2">Lieblingsmusik</h2>
+         <!-- Zurück zum Anfang springen-->
+        <div class="centered">
+            <p><a href="#C6">Zurück zum Anfang</a></p>
+        </div>
+        <div class="centered">
+            <audio controls class="music">
+                <source src="/static/Samsara.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+    <h2 id="C4" class="header2">Was es noch zum Sagen gibt</h2>
+        <!-- Zurück zum Anfang springen-->
+        <div class="centered">
+            <p><a href="#C6">Zurück zum Anfang</a></p>
+        </div>
+        <div class="text1">
+            <p> Aufgewachsen bin ich in einer Bowling-Halle. Nachdem diese in Konkurs gegangen ist, wurde ich von 2 ganz netten Menschen gerettet. <br>
+            Seit dem lebe ich in <strong>"Schnurriehausen"</strong> mit zwei weiteren Katzen in einem Haushalt.</p>
+        </div>
+
+    <h2 id="C5" class="header2">Ich bestelle mein Futter immer über folgender Web-Seite</h2>
+        <!-- Zurück zum Anfang springen-->
+        <div class="centered">
+            <p><a href="#C6">Zurück zum Anfang</a></p>
+        </div>
+
+        <form class="centered">
+            <input type="button" value="Button zum Link Zooplus" onclick="window.location.href='https://www.zooplus.at/'" />
+        </form>
+
+</body>
+</html>
