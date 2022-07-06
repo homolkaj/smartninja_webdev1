@@ -43,6 +43,7 @@ if __name__=="__main__":
 
         selection = input("Enter A) for a Basketball Player, B) for a Football Player, C) to see the values, or D) quit? ")
 
+
         if selection.upper() == "A":
             # Basketball Player
             print("Basketball Player")
@@ -54,13 +55,13 @@ if __name__=="__main__":
             print(b_player.__dict__)
             print(b_player.first_name)
             print(b_player.height_cm)
-
             # converting kg to lbs
             print(str(b_player.weight_kg) + " kg, " + str(b_player.weight_to_lbs()) + " lbs")
-
+            # f_load.append(b_player.__dict__)
             # wirte values in file
             with open("Basketball_Players.json", "w", encoding="utf-8") as b_players_list_file:
-                b_players_list_file.write(json.dumps(b_player.__dict__))
+                b_load.append(b_player.__dict__)
+                b_players_list_file.write(json.dumps(b_load))
 
         elif selection.upper() == "B":
             # Football player
@@ -74,7 +75,8 @@ if __name__=="__main__":
             print(str(f_player.weight_kg) + " kg, " + str(f_player.weight_to_lbs()) + " lbs")
             # wirte values in file
             with open("Football_Players.json", "w", encoding="utf-8") as f_players_list_file:
-                f_players_list_file.write(json.dumps(f_player.__dict__))
+                f_load.append(f_player.__dict__)
+                f_players_list_file.write(json.dumps(f_load))
 
         elif selection.upper() == "C":
             # File lesen uns ausgeben
