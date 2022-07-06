@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <title>Boogle Homepage</title>
+{% endblock title %}
+
+{% block content %}
+    <div class="container">
+        <div class="logo-block">
+            <img src="/static/img/boogle.jpeg" class="title-image" width="150px" alt="boogle logo">
+        </div>
+
+        <div class="title-block">
+            <p class="login-title">{{boogle_title}}</p>
+        </div>
+
+        <div class="signin-block">
+            <h1 class="login-text">Current date: {{current_date}}</h1>
+            <h1 class="login-text">{{boogle_text}}</h1>
+
+            <div class="account-wall">
+                <img class="profile-img" src="/static/img/anonymous.png" alt="profile picture">
+
+                <form class="form-signin">
+                    <input type="text" class="form-control" placeholder="Email" required autofocus>
+                    <input type="password" class="form-control" placeholder="Password" required>
+
+                    <button type="submit">Sign in</button>
+                </form>
+            </div>
+
+            <a href="#" class="new-account">{{account_text}}</a>
+        </div>
+    </div>
+{% endblock content %}
