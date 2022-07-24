@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %} Home Page {% endblock title %}
+
+{% block content %}
+
+            <h1>Home Page</h1>
+            {% if user %}
+            <br>
+            <h3>Hello {{user.name}}!</h3>
+            <p>Welcome to my webpage!</p>
+            {% else %}
+            <h2> Please log in here:</h2>
+            <br>
+
+            <form method="post" action="/login">
+                <p>
+                    <input type="text" name="user-name" placeholder="Enter your name">
+                </p>
+                <p>
+                    <input type="text" name="user-sex" placeholder="Enter your sex">
+                </p>
+                <p>
+                    <input type="text" name="user-age" placeholder="Enter your age">
+                </p>
+                <p>
+                    <input type="email" name="user-email" placeholder="Enter your email address">
+                </p>
+                <p>
+                    <input type="password" name="user-password" placeholder="Enter your password">
+                </p>
+                <br>
+                <button>Submit</button>
+            </form>
+            {% endif %}
+
+
+{% endblock content%}
